@@ -1,0 +1,24 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Calculadora</title>
+    <script src="app/Index.js"></script>
+</head>
+<body>
+    <div name="formulario-inicial" id="form" class="formularios">
+        <!--Para comentar em HTML-->
+        <h1>Calculadora simples</h1>
+        <label for="n1">1-</label>
+        <input id="n1" placeholder="Insira o primeiro número" class="entrada" />
+        <label for="n2">2-</label>
+        <input id="n2" placeholder="Insira o segundo número" class="entrada" /><br /><br />
+        <input type="button" onclick="Somar()" value="Somar" />
+        <input type="button" onclick="Subtrair()" value="Subtrair" />
+        <input type="button" onclick="Multiplicar()" value="Multiplicar" />
+        <input type="button" onclick="Dividir()" value="Dividir" />
+        <br /><br />
+        O resultado é: <resultado></resultado>
+    </div>
+</body>
+</html>
